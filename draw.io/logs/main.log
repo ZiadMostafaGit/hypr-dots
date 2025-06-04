@@ -1,0 +1,38 @@
+[2025-06-04 11:09:10.880] [error] Error executing command as another user: No authentication agent found.
+
+[2025-06-04 11:09:10.884] [error] Error: Error: Command /usr/bin/pkexec --disable-internal-agent exited with code 127
+    at DebUpdater.spawnSyncLog (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:121:19)
+    at DebUpdater.doInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/DebUpdater.js:41:14)
+    at DebUpdater.install (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:57:25)
+    at DebUpdater.quitAndInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:15:34)
+    at Timeout._onTimeout (file:///opt/drawio-desktop/resources/app.asar/src/main/electron.js:1405:36)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[2025-06-04 11:09:10.884] [error] @error@
+ Error: Command /usr/bin/pkexec --disable-internal-agent exited with code 127
+    at DebUpdater.spawnSyncLog (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:121:19)
+    at DebUpdater.doInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/DebUpdater.js:41:14)
+    at DebUpdater.install (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:57:25)
+    at DebUpdater.quitAndInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:15:34)
+    at Timeout._onTimeout (file:///opt/drawio-desktop/resources/app.asar/src/main/electron.js:1405:36)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[2025-06-04 11:10:39.977] [error] Error executing command as another user: No authentication agent found.
+
+[2025-06-04 11:10:39.981] [error] Error: Error: Command /usr/bin/pkexec --disable-internal-agent exited with code 127
+    at DebUpdater.spawnSyncLog (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:121:19)
+    at DebUpdater.doInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/DebUpdater.js:41:14)
+    at DebUpdater.install (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:57:25)
+    at DebUpdater.quitAndInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:15:34)
+    at Timeout._onTimeout (file:///opt/drawio-desktop/resources/app.asar/src/main/electron.js:1405:36)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+[2025-06-04 11:10:39.981] [error] @error@
+ Error: Command /usr/bin/pkexec --disable-internal-agent exited with code 127
+    at DebUpdater.spawnSyncLog (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:121:19)
+    at DebUpdater.doInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/DebUpdater.js:41:14)
+    at DebUpdater.install (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:57:25)
+    at DebUpdater.quitAndInstall (/opt/drawio-desktop/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:15:34)
+    at Timeout._onTimeout (file:///opt/drawio-desktop/resources/app.asar/src/main/electron.js:1405:36)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
