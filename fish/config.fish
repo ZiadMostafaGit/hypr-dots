@@ -1,9 +1,9 @@
 set -g fish_greeting
 
-# if status is-interactive
-#     starship init fish | source
-# end
-#
+ if status is-interactive
+     starship init fish | source
+ end
+
 
 #oh-my-posh init fish --config /home/ziad/.cache/oh-my-posh/themes/hul10.omp.json | source
 
