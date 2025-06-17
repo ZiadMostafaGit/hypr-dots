@@ -1,5 +1,7 @@
 {
   "layer": "top",
+    "position": "bottom",
+
   "modules-left": ["custom/launcher", "cpu", "memory", "custom/media", "tray"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [

@@ -1,0 +1,8 @@
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gnome
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-gtk
+systemctl --user restart xdg-desktop-portal.service
+sudo pacman -S gnome-settings-daemon
+exec-once = /usr/lib/gnome-settings-daemon/gsd-media-keys &
+exec-once = /usr/lib/gnome-settings-daemon/gsd-xsettings &
+gsettings get org.gnome.desktop.interface color-scheme
+
